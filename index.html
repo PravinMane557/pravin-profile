@@ -5,48 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+     .headersection{
+      background-color: rgb(216, 216, 216);
+      padding: 20px 20px 20px 40px;
+      color: #000000;
+     }
+      .links{
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 40px;
+       text-align: center;
+      }
+      .navigation{
+        color: #005eff;
+        padding: 0px 100px;
+        text-decoration: none;
+      }
+      .downloadbutton{
+        padding: 10px;
+      }
+      .headernames{
+        padding: 0px 20px 0px 5px;
+      }
+      .footericon{
+        padding: 0px 10px;
+      }
+      .followme{
+        margin: 0px 10px 0px 0px;
+      }
+    </style>
 </head>
 <body>
-    <header>
-        <i class="fa fa-lg fa-user" aria-hidden="true"></i> &nbsp;
-        <span>Pravin Mane</span> &nbsp; &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-lg fa-phone-square" aria-hidden="true"></i> &nbsp;
-        <span>9098 8888 88</span> &nbsp; &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-lg fa-envelope" aria-hidden="true"></i> &nbsp;
-        <span>pravin.mane@gmail.com</span> &nbsp; &nbsp; &nbsp; &nbsp;
-        <i class="fa fa-download" aria-hidden="true"></i> &nbsp;
-        <button> <a href="Assets/RESUUMEEe (2)_compressed (1).pdf" target="_blank"> Download Resume</a> </button>
+    <header class="headersection">
+     <i class="fa fa-lg fa-user" aria-hidden="true"></i>
+        <span class="headernames">Pravin Mane</span>
+        <i class="fa fa-lg fa-phone-square" aria-hidden="true"></i>
+        <span class="headernames">9098 8888 88</span>
+        <i class="fa fa-lg fa-envelope" aria-hidden="true"></i>
+        <span class="headernames">pravin.mane@gmail.com</span>
+        <i class="fa fa-download" aria-hidden="true"></i>
+        <span class="downloadbutton"><button> <a href="Assets/RESUUMEEe (2)_compressed (1).pdf" target="_blank"> Download Resume</a> </button></span>
     </header>
     <br><br>
-    <nav>
-        <a href="home.html" target="myFrame">HOME</a> &nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="myFrame">TECH STACK</a> &nbsp; &nbsp; &nbsp;
-        <a href="project.html" target="myFrame">PROJECT</a> &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="myFrame">EDUCATION</a> &nbsp; &nbsp; &nbsp;
-        <a href="aboutMe.html" target="myFrame">ABOUT ME</a> &nbsp; &nbsp; &nbsp;
+    <nav class="links">
+        <a href="home.html" target="myFrame" class=" navigation ">Home</a>
+        <a href="techStack.html" target="myFrame" class=" navigation ">Tech Stack</a>
+        <a href="project.html" target="myFrame" class=" navigation ">Project</a>
+        <a href="education.html" target="myFrame" class=" navigation ">Education</a>
+        <a href="aboutMe.html" target="myFrame" class=" navigation ">About Me</a>
     </nav>
     <br>
-    <iframe width="800px" height="550px" src="home.html" name="myFrame" frameborder="0">
+    <iframe width="1920px" height="450
+    0px" src="home.html" name="myFrame" frameborder="0">
 
     </iframe>
     
     <br> <br>
    
     <footer>
-        <span>Follow me</span> &nbsp; &nbsp; &nbsp;
+        <span class="followme">Follow me</span>
         <a href="https://github.com/Sanketchaudhari1998/my-profile" target="_blank"
-          ><i class="fa fa-github" aria-hidden="true"></i
+          class="footericon"><i class="fa fa-github" style="color:#005eff; aria-hidden="true"></i
         ></a>
-        &nbsp; &nbsp; &nbsp;
         <a href="https://www.linkedin.com/feed/" target="_blank"
-          ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a
-        >&nbsp; &nbsp; &nbsp;
+        class="footericon"><i class="fa fa-linkedin-square" style="color:#005eff; aria-hidden="true"></i></a
+        >
         <a href="https://www.instagram.com/" target="_blank"
-          ><i class="fa fa-instagram" aria-hidden="true"></i
+        class="footericon"><i class="fa fa-instagram" style="color:#005eff; aria-hidden="true"></i
         ></a>
-        &nbsp; &nbsp; &nbsp;
         <a href="https://www.facebook.com/hpcl/photos" target="_blank"
-          ><i class="fa fa-facebook-square" aria-hidden="true"></i
+        class="footericon"><i class="fa fa-facebook-square" style="color:#005eff; aria-hidden="true"></i
         ></a>
         <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
     </footer>
