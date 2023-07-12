@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Signika+Negative:wght@300&family=Sofia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+      .downloadbuttontext{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
      .headersection{
       background-color: rgb(216, 216, 216);
       padding: 20px 20px 20px 40px;
@@ -22,11 +29,18 @@
       .navigation{
         color: #005eff;
         text-decoration: none;
+        font-family: 'Poppins', sans-serif;
       }
       .downloadbutton{
-        padding: 10px;
+        background-color: #005eff;
+        margin-left: 10px;
+        padding: 5px, 5px;
+        display: inline-block;
+        border-radius: 20px;
+        font-family: 'Poppins', sans-serif;
       }
       .headernames{
+        font-family: 'Poppins', sans-serif;
         padding: 0px 20px 0px 5px;
       }
       .footericon{
@@ -39,6 +53,15 @@
         display: inline-block;
         margin-right: 30px;
       }
+      p{
+        font-family: 'Sofia', cursive;
+      }
+      span [class="headernames"]{
+        font-family: 'Poppins', sans-serif;
+      }
+      .followme{
+        font-family: 'Poppins', sans-serif;
+      }
     </style>
 </head>
 <body>
@@ -49,8 +72,8 @@
         <span class="headernames">9098 8888 88</span>
         <i class="fa fa-lg fa-envelope" aria-hidden="true"></i>
         <span class="headernames">pravin.mane@gmail.com</span>
-        <i class="fa fa-download" aria-hidden="true"></i>
-        <span class="downloadbutton"><button> <a href="Assets/RESUUMEEe (2)_compressed (1).pdf" target="_blank"> Download Resume</a> </button></span>
+        <i class="fa fa-lg fa-download" aria-hidden="true"></i>
+        <span><button class="downloadbutton"> <a href="Assets/RESUUMEEe (2)_compressed (1).pdf" target="_blank" class="downloadbuttontext"> Download Resume</a> </button></span>
     </header>
     <br><br>
     <nav class="links">
@@ -72,7 +95,7 @@
    
     <footer>
       <ul class="iconlinks">
-        <li><span>Follow me</span></li>
+        <li><span class="followme">Follow me</span></li>
         <li><a href="https://github.com/Sanketchaudhari1998/my-profile" target="_blank"><i class="fa fa-github" style="color:#005eff; aria-hidden="true"></i></a></li>
         <li><a href="https://www.linkedin.com/feed/" target="_blank"
          ><i class="fa fa-linkedin-square" style="color:#005eff; aria-hidden="true"></i></a

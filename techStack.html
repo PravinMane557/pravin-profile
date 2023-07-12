@@ -4,41 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Signika+Negative:wght@300&family=Sofia&display=swap" rel="stylesheet">
     <style>
-        table,tr,td,th{
-            border: 2px solid green;
+    .secondrow{
+        padding: 10px 200px;
+    }
+        table,tr,th{
+            border: 2px solid rgb(1, 66, 131);
             border-collapse: collapse;
-          
+        }
+        h2{
+            font-family: 'Poppins', sans-serif;
+        }
+        .tableelement tbody tr td{
+            font-family: 'Signika Negative', sans-serif;
+        }
+       
+        td[rowspan="5"]{
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 128, 255);
+            padding: 10px 100px;
+            font-size: 20px;
+        }
+        td[rowspan="2"]{
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 128, 255);
+            padding: 10px 100px;
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
     <h2>Technology Stack for Angular Web Develeopment</h2>
    
-        <table>
+        <table class="tableelement">
            <tbody>
             <tr>
                 <td rowspan="5">Technology</td>
-                <td>HTML5 + CSS</html></td>
+                <td class="secondrow">HTML5 + CSS</td>
             </tr>
             <tr>
-                <td>Bootstrap</td>
+                <td class="secondrow">Bootstrap</td>
             </tr>
             <tr>
-                <td>JavaScript</td>
+                <td class="secondrow">JavaScript</td>
             </tr>
             <tr>
-                <td>TypeScript</td>
+                <td class="secondrow">TypeScript</td>
             </tr>
             <tr>
-                <td>Angular</td>
+                <td class="secondrow">Angular</td>
             </tr>
             <tr>
                 <td rowspan="2">Tools</td>
-                <td>Git+GitHub</td>
+                <td class="secondrow">Git+GitHub</td>
             </tr>
             <tr>
-                <td>Agile + JIRA</td>
+                <td class="secondrow">Agile + JIRA</td>
             </tr>
 
            </tbody>

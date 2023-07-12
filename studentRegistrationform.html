@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+<style>h2{
+  font-family: 'Poppins', sans-serif;
+}
+.tableT{
+  font-family: 'Poppins', sans-serif;
+  padding: 0px 20px;
+  width: 250px;
+  height: 35px;
+  border-radius: 15px;
+  
+}
+/* .inputbox{
+  padding: 0px 10px;
+  width: 250px;
+  height: 35px;
+  border-radius: 15px;
+} */
+.genderlabel{
+  font-family: 'Poppins', sans-serif;
+}
+select{
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+}
+fieldset{
+  background-color: #f3faff;
+}
+h2{
+  padding: 10px 30px;
+  background-color: #032f4e;
+  color: #ffffff;
+  border-radius: 30px;
+}
+button{
+  color: #ffffff;
+  background-color: #032f4e;
+}
+
+</style>
+  </head>
+  <body>
+    <fieldset>
+        <legend> <h2> Student Registration Form  </h2>   </legend>
+    <table >
+      <tbody>
+        <form>
+          <tr>
+            <td>
+              <label for="fName" class="tableT"> First Name </label>
+            </td>
+            <td>
+              <input id="fName" type="text" autofocus required placeholder="Only Capitals" class="tableT">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label class="tableT"> Last Name </label>
+            </td>
+            <td>
+              <input type="text" placeholder="Only caps" class="tableT">
+            </td>
+          </tr>
+          <tr>
+            <td><label class="tableT"> Age </label></td>
+            <td><input type="number" required placeholder="Only age >= 18 allowed"  class="tableT"></td>
+          </tr>
+          <tr>
+            <td><label class="tableT"> Name of your country </label></td>
+            <td><input type="text" value="India" readonly class="tableT"></td>
+          </tr>
+          <tr>
+            <td> <label class="tableT"> Email </label>  </td>
+            <td> <input type="email" class="tableT"> </td>
+          </tr>
+          <tr>
+            <td> <label class="tableT"> Password </label> </td>
+            <td> <input type="password" class="tableT"> </td>
+          </tr>
+          <tr>
+            <td> <label class="tableT"> Mobile </label> </td>
+            <td> <input type="tel" class="tableT"> </td>
+          </tr>
+          <tr>
+            <td> <label class="tableT"> Date Of Birth </label> </td>
+            <td> <input type="date" class="tableT"> </td>
+          </tr>
+          <tr>
+            <td class="tableT"> Select Available for discussion </td>
+            <td> <input type="week" class="tableT"> </td>
+          </tr>
+          <tr>
+            <td class="tableT"> Suitable Time </td>
+            <td> <input type="time" class="tableT"> </td>
+          </tr>
+          <tr>
+            <td> <label class="tableT"> Select Gender </label>  </td>
+            <td>
+                <input type="radio" name="gender"> <label class="genderlabel"> Male</label>
+                <input type="radio" name="gender"> <label class="genderlabel"> Female </label>
+                <input type="radio" name="gender"> <label class="genderlabel"> Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td class="tableT"> Technology Stack </td>
+            <td> 
+                <input type="checkbox"> <label class="genderlabel"> C </label>
+                <input type="checkbox"> <label class="genderlabel"> CPP </label>
+                <input type="checkbox"> <label class="genderlabel"> Java </label>
+                <input type="checkbox"> <label class="genderlabel"> Angular </label>
+                <input type="checkbox"> <label class="genderlabel"> React </label>
+                <input type="checkbox"> <label class="genderlabel"> DevOps </label>
+                <input type="checkbox"> <label class="genderlabel"> CI/CD Tools </label>
+            </td>
+          </tr>
+          <tr>
+            <td> <label class="tableT"> Upload photo </label>  </td>
+            <td> <input type="file" class="tableT"> </td>
+          </tr>
+          <tr>
+            <td> <label class="tableT"> Upload Documents</label> </td>
+            <td> <input type="file" multiple class="tableT"> </td>
+          </tr>
+          <tr>
+            <td> 
+                <label class="tableT"> Select your State </label>
+            </td>
+            <td>
+                <select>
+                    <option value="Maharashtra" class="tableT" class="tableT"> Maharashtra</option>
+                    <option value="Karnatka" class="tableT" class="tableT">Karnatka</option>
+                    <option value="AP" class="tableT" class="tableT">Andra Pradesh</option>
+                    <option value="UP" class="tableT" class="tableT">UP</option>
+                    <option value="Bihar" class="tableT" class="tableT">Bihar</option>
+                </select>
+            </td>
+          </tr>
+          <tr>
+            <td> <label class="tableT"> Address </label> </td>
+            <td>
+                <textarea cols="50" rows="8" class="tableT"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td> <button type="submit" class="tableT"> Register</button>  </td>
+            <td> <button type="reset" class="tableT">Reset</button> </td>
+          </tr>
+        </form>
+      </tbody>
+    </table>
+</fieldset>
+  </body>
+</html>

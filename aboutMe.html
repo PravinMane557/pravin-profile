@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>My Personal Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Signika+Negative:wght@300&family=Sofia&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
       table,
       td,
@@ -13,28 +17,38 @@
       .mobile{
         margin: 0px 0px 0px 10px;
       }
+      .heading{
+        font-family: 'Poppins', sans-serif;
+      }
+      .subheading{
+        font-family: 'Signika Negative', sans-serif;
+      }
+      th, td{
+        font-family: 'Signika Negative', sans-serif;
+        padding: 0px 10px;
+      }
     </style>
   </head>
   <body>
-    <h2>Personal Details</h2>
+    <h2 class="heading">Personal Details</h2>
     <img src="Assets/man.png" width="200px" alt="Profile Photo" />
     <p>
-      <b>Name</b>
-      <span>: Pravin Mane</span>
+      <b class="heading">Name</b>
+      <span class="subheading">: Pravin Mane</span>
     </p>
-    <h3>Contact Details</h3>
+    <h3 class="heading">Contact Details</h3>
     <p>
-    <span class="mobile"> <b> Mobile</b></span>
-      :9778 4511 44
+    <span class="heading"> <b> Mobile</b></span>
+      <span class="subheading" >:9778 4511 44</span>
     </p>
     <p>
-      <span class="mobile"> <b> Email</b></span>
-      :pravin.mane@557.com
+      <span class="heading"> <b> Email</b></span>
+     <span class="subheading"> :pravin.mane@557.com</span>
     </p>
     <hr/>
-    <h2>My Technology Stack</h2>
+    <h2 class="heading">My Technology Stack</h2>
     <list>
-      <ul>
+      <ul class="subheading">
         <li>HTML5</li>
         <li>CSS</li>
         <li>Java Script</li>
@@ -42,7 +56,7 @@
       </ul>
     </list>
     <hr />
-    <h2>Academic Details</h2>
+    <h2 class="heading">Academic Details</h2>
     <table>
       <thead>
         <tr>
